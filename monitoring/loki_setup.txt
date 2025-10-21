@@ -1,0 +1,10 @@
+# Monitoring with Grafana Loki
+
+This document explains how to run Loki locally using Docker to collect and query container logs.
+
+## 1. How to Start Loki
+
+We will run Loki in a Docker container. Use the following command to download and start a Loki instance:
+
+```bash
+docker run --name loki -d -p 3100:3100 grafana/loki:latest
