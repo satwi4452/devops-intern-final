@@ -19,5 +19,5 @@ jobs:
       with:
         python-version: '3.9'
 
-    - name of: Run Python script
+    - name: Run Python script
       run: python hello.py
