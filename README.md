@@ -1,3 +1,6 @@
+
+[![Basic CI](https://github.com/satwi4452/devops-intern-final/actions/workflows/ci.yml/badge.svg)](https://github.com/satwi4452/devops-intern-final/actions/workflows/ci.yml)
+
 # DevOps Intern Final Assessment
 
 - **Name:** Saatwika
@@ -15,3 +18,4 @@ docker build -t hello-devops .
 
 # Run the Docker container
 docker run hello-devops
+
